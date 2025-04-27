@@ -1,0 +1,10 @@
+Deixei dois arquivos nesse diretório, uma query usando CTE e outra sem usar. O motivo é que o hackerrank nao usa o MySQL mais recente, e na versão do software esse conceito ainda não está implementado. 
+
+----------------------------------------------------------------------------------------------------------------
+
+Aprendizandos com esse exercício: 
+
+- Pude aprender mais sobre CTE
+- Entendi que tabelas podem não usar o 'AS' para serem apelidadas
+- Também entendi que quando usamos a cláusula 'JOIN',  o MySQL interpreta automaticamente como um INNER JOIN.
+- O principal, simplifique a Query!!
