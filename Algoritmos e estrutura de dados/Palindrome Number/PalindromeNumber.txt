@@ -1,4 +1,16 @@
 Description: Given an integer x, return true if x is a palindrome, and false otherwise.
+Observation: Of course i could converting to string and compare with the inverse.
+
+if str(x)==str(x)[::-1]:
+      return True
+return False
+
+But that's an easier thought to arrive at, so i wanted to do it without conversion.
 
 Solution: The difficulty of this problem for me was solving it without convert the integer for string. That was good, because i could think 
-about how to solve it just using math, loops and branches.
+about how to solve it just using math, loops and branches. The method to arrive the solution is to think about how number are constructed. I needed know how many digits the number had and how i could to construct the inverse number with just math. The tip is to think of the number as the sum of numbers with
+different decimals place.
+Example:
+245 = 200 + 40 + 5
+101 = 100 + 0 + 1
+24542 = 20000 + 4000 + 500 + 40 + 2
