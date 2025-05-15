@@ -1,0 +1,4 @@
+Description: Given an integer x, return true if x is a palindrome, and false otherwise.
+
+Solution: The difficulty of this problem for me was solving it without convert the integer for string. That was good, because i could think 
+about how to solve it just using math, loops and branches.
